@@ -54,7 +54,9 @@
         
         #cards {
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; isso aqui faz ficar em coluna*/
+            /*esse deixa em linha*/
+            flex-direction: row;
             gap: 32px;
         }
         
