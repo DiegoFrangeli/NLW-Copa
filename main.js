@@ -47,3 +47,12 @@ document.querySelector('#app').innerHTML = `
     )}
 </main>
 `
+
+document
+    .querySelectorAll("input[type='radio']")
+    .forEach(function(input) {
+        input.onclick = function() {
+            const coratual = document.body.classList
+            document.body.classList.replace(coratual, input.id)
+        }
+    })
